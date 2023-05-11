@@ -1,5 +1,5 @@
 header{
-    background-color:#A61351;
+    background-color:#afacac;
     
 
 }
@@ -9,8 +9,15 @@ header{
 }
 
 body{
-    background-color: rgb(185, 110, 120);
+    background-color: rgb(68, 66, 66);
 }
 li{
-   color:rgb(231, 221, 221); 
+   color:rgb(235, 227, 228); 
+}
+*{
+    margin: 0 16px;
+}   padding:0; 24px;
+
+.cabecalhoListaItem{
+    display: inline-block;
 }
