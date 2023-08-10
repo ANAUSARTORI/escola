@@ -28,7 +28,7 @@ body{
     padding: 24 0px;
 }
 .sobreImagem{
-    width: 15%
+    width: 24%
 }
 .sobre{
     background-image: linear-gradient(#e99cc0, #f08bb5); 
@@ -36,7 +36,7 @@ body{
      display:flex;
      justify-content:center;
      align-items:center;
-     padding: 24px; 
+     padding: 24px 0; 
 }
 
 .sobreConteudo{
@@ -45,6 +45,11 @@ body{
 .membroImagem{
     width: 120px;
 }
+
+.imagemQuadrada{
+    height: 214px;
+}
+
 .membroDiv{
     align-items: center;
     text-align:center;
@@ -52,5 +57,9 @@ body{
 }   
  .membrosTodos{   
     display:grid;
-grid-template-columns: 10% 20% 20% 20% 20%
+    grid-template-columns: 10% 20% 20% 20% 20%;
+}
+
+.membroIcone{
+    width:40px
 }
